@@ -1,0 +1,23 @@
+<html>
+<head> My First Web APP</head>
+<body>
+<form>
+<table>
+<tr> <td> Name<\td>
+     <td><input type="text name="n"></td>
+</tr>
+<tr><td> Branch</td>
+    <td><select><option> CSE</option>
+                <option> ECE</option>
+                <option> IT</option>
+                <option> EEE</option>
+                <option> CIVIL</option>
+                <option> MECH</option>
+                <option> AUTO</option>
+        <\select>
+     </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
