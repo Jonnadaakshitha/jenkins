@@ -1,1 +1,12 @@
 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
+
+git init
+git add .
+git config --global user.email "245122748052@mvsrec.edu.in"
+git config --global user.name "Jonnadaakshitha"
+git commit -m "First Commit"
+git remote add origin "https://github.com/Jonnadaakshitha/App1.git"
+it push origin master
+Username for 'https://github.com': Jonnadaakshitha
+Password for 'https://Jonnadaakshitha@github.com': 
+
