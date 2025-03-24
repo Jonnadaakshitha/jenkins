@@ -1,4 +1,4 @@
-class CommandLineDemo1
+class javaprog10
 {
 public static void main(String args[])
 {
