@@ -1,0 +1,3 @@
+ vi AppletDemo.java
+ javac AppletDemo.java
+ appletviewer AppletDemo.java
