@@ -1,24 +1,11 @@
 <html>
 <head>
-<script language="javascript">
-function change(col)
-{
-    switch(col)
-    {
-        case 'red':
-            document.body.style.backgroundColor = "red";
-            break;
-
-        case 'green':
-            document.body.style.backgroundColor = "green";
-            break;
-
-        case 'blue':
-            document.body.style.backgroundColor = "blue";
-            break;
+  <script language="javascript">
+    function change(col) {
+      // Using document.body.style.backgroundColor to change the background color
+      document.body.style.backgroundColor = col;
     }
-}
-</script>
+  </script>
 </head>
 <body>
   <h1><input type="radio" name="c" onClick="change('red')">RED</h1>
