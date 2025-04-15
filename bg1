@@ -5,13 +5,13 @@ function change(col)
 {
   switch(col)
   {
-    case "red":
+    case 'red':
       document.bgColor = "red";
       break;
-    case "blue":
+    case 'blue':
       document.bgColor = "blue";
       break;
-    case "green":
+    case 'green':
       document.bgColor = "green";
       break;
   }
@@ -19,8 +19,8 @@ function change(col)
 </script>
 </head>
 <body>                  
-  <input type="radio" name="d" onClick="change('red')">RED<br>
-  <input type="radio" name="d" onClick="change('blue')">BLUE<br>
-  <input type="radio" name="d" onClick="change('green')">GREEN<br>
+  <h1><input type="radio" name="d" onClick="change('red')">RED</h1>
+  <h1><input type="radio" name="d" onClick="change('blue')">BLUE</h1>
+  <h1><input type="radio" name="d" onClick="change('green')">GREEN</h1>
 </body>
 </html>
